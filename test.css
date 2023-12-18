@@ -1,0 +1,615 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+.Header {
+    /* background-color: grey; */
+    font-family: 'Roboto', sans-serif;
+    .block-block {;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        
+
+
+        .block-3 {
+            height: 4rem;
+            width: 5rem;
+            .logo {
+                font-family: 'Roboto', sans-serif;
+                margin-top: 7px;
+                text-align: center;
+            }
+        }
+    
+        .block-1  {
+            height:4rem;
+            width: 20rem;
+
+            .text-1 {
+                height : 2rem;
+                width: 20rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .text-1-1 {
+                    margin-top: 1.7rem;
+                    color : black;
+                }
+            }
+        }
+        
+        .block-2  {
+
+            height: 4rem;
+            width: 55rem;       
+        }
+    }
+    .line {
+        height : 1px;
+        background : gainsboro;
+    }
+    position: sticky;
+    top : 0;
+}
+
+.body {
+    margin: auto;
+    background-color: geen;
+    height : 60rem;
+    width: 75rem;
+    margin-top : 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+    
+    .blockMain1 {
+        background-color : ;
+        height : 20rem;
+        width: 80rem;
+
+        justify-content: center;
+        display: flex;
+        .blockSloganMain {
+            background-color : gree ;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            .blockSlogan1 {
+                background-color: gree;
+                width : 30rem;
+                height : 3rem;
+                text-align: left;
+            }
+            .blockSlogan2 {
+                background-color: brow ;
+                width : 30rem;
+                height : 3rem;
+            } 
+            .blockSlogan3 {
+                background-color: purpl ;
+                width : 30rem;
+                height : 14rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                .searchBar {
+                    box-shadow:
+                     0 0 0 2px white,
+                     0.3em 0.3em 1em rgba(100, 96, 96, 0.6);
+                    background-color:;
+                    border-radius: 6px;
+                    width : 20rem;
+                    height : 3rem;
+
+                    justify-content: center;
+                    display: flex;
+                    .iconSearch {
+                        background-color: ;
+                        width : 3rem;
+                        height : 3rem;
+                        .imgSearch {
+                            margin-top: 14px;
+                            text-align: center;
+                        }
+                    }
+                    .teksSearch {
+                        background-color:gr;
+                        width : 12rem;
+                        height : 3rem;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        .MasukkanLokasi {
+                            color: gray;
+                            margin-left: 10px;
+                        }
+                        
+                    }
+                    .buttonCari {
+                        background-color: ;
+                        width : 5rem;
+                        height : 3rem;
+
+                        display : flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .buttonCari1 {
+                            border-radius: 4px;
+                            background-color: #a20000 ;
+                            width : 4.7rem;
+                            height : 2.5rem;
+                            justify-content: center;
+                            display: flex;
+                            flex-direction: column;
+                            .teksCari {
+                                margin:auto;
+                                color:aliceblue; 
+                            }
+                            
+                        }
+                    }
+                }
+                .blockSearch {
+                    background-color: vi;
+                    width : 20rem;
+                    height : 8rem;
+                }
+            }     
+        }
+        .ilustrasi {
+            background-color: ;
+            width : 50rem;
+            height : 20rem; 
+            display : flex;
+
+            .img {
+                margin-left: 13rem;
+            }
+            .img1 {
+            }
+        }
+    }
+    .blockMain2 {
+        background-color : yelow;
+        height : 37rem;
+        width: 75rem;
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .daftarKost{
+            border-radius: 10px;
+            background-color : white;
+            height : 12rem;
+            width: 75rem;
+            display : flex;
+            justify-content: center;
+
+            box-shadow:
+            0 0 0 2px white,
+            0.3em 0.3em 1em rgba(100, 96, 96, 0.6);
+            .daftarKostText {
+                margin-top: 1rem;
+                background-color : greenyelow;
+                height : 10rem;
+                width: 45rem;
+                
+                display : flex;
+                justify-content: center;
+                flex-direction: column;
+                .daftarKostText1 {
+                    background-color : geen;
+                    height : 2rem;
+                    width: 45rem;
+                    display : flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .daftarKostText1-1 {
+                        margin-left: 2rem;
+                        font-size: 25px;
+                    }
+                }
+                .daftarKostText2 {
+                    background-color : darslategrey;
+                    height : 2rem;
+                    width: 45rem;
+                    display : flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .daftarKostText2-1 {
+                        margin-left: 2rem;
+                        color : gray;
+                        font-size: 18px;
+                    }
+                }
+                .daftarKostText3 {
+                    background-color : prple;
+                    height : 4.5rem;
+                    width: 45rem;
+                    display : flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .daftarSekarang {
+                        margin-left: 2rem;
+                        border-radius: 10px;
+                        background-color: white;
+                        height : 2.5rem;
+                        width: 13rem;
+                        display : flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        border:1px #a20000;
+                        border-style: solid;
+                        .daftarSekarangText {
+                            color : #a20000;
+                            margin-left:37px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+
+            .daftarKostIMG {
+                background-color : gey;
+                height : 12rem;
+                width: 30rem;
+                display : flex;
+                justify-content: center;
+                flex-direction: column;
+                daftarKostIMG1 {
+                   margin-top: 1rem;
+                }
+            }
+        }
+       
+        .main2Space {
+            background-color : whie;
+            height : 2rem;
+            width: 80rem;
+        }
+        .CaraBayarKost {
+            box-shadow:
+            0 0 0 2px white,
+            0.3em 0.3em 1em rgba(100, 96, 96, 0.6);
+            border-radius: 10px;
+            background-color : white;
+            height : 10rem;
+            width: 50rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .CaraBayarKost1 {
+                height : 2rem;
+                width: 50rem;
+                display : flex;
+                flex-direction: column;
+                justify-content: center;
+                .CaraBayarKost1Text {
+                    margin-left: 2rem;
+                    font-size: 23px;
+                }
+            }
+            .CaraBayarKost2 {
+                height : 2rem;
+                width: 50rem;
+                display : flex;
+                flex-direction: column;
+                justify-content: center;
+                .CaraBayarKost2Text {
+                    margin-left: 2rem;
+                    font-size: 16px;
+                    color: gray;
+                }
+            }
+            .CaraBayarKost3 {
+                height : 3rem;
+                width: 50rem;
+                display : flex;
+                flex-direction: column;
+                justify-content: center;
+                .CaraBayarKost3Text {
+                    margin-left: 2rem;
+                    border-radius: 10px;
+                    background-color: white;
+                    height : 2rem;
+                    width: 8rem;
+                    display : flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    border:1px #a20000;
+                    border-style: solid;
+                        .mauCobaDong {
+                            color : #a20000;
+                            margin-left: 30px;
+                            font-size: 15px;
+                        }
+                }
+            }
+        }
+        .kostDikelola {
+            box-shadow:
+            0 0 0 2px white,
+            0.3em 0.3em 1em rgba(100, 96, 96, 0.6);
+            border-radius: 10px;
+            background-color : white;
+            height : 7rem;
+            width: 60rem;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            .kostDikelola1 {
+                height : 3rem;
+                width: 75rem;
+                background-color : gra;
+                .kostDikelola1teks {
+                    margin-left: 2rem;
+                    font-size: 23px;
+                }
+            }
+            .kostDikelola2 {
+                height : 3rem;
+                width: 75rem;
+                background-color : ylow;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .kostDikelola2teks {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    margin-left: 2rem;
+                    font-size: 16px;
+                    color: gray;
+                }
+            }
+        }
+    }
+    
+    
+}
+.footer {
+    margin-bottom: -2rem;
+    background-color:#a20000;
+    margin-left: -2rem;
+    width: 98rem;
+    height: 23rem;
+    display : flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    .footermargin {
+        background-color: gey;
+        width: 75rem;
+        height: 23rem; 
+        display : flex;
+        justify-content: center;
+        .blockfooter1 {
+            background-color : gree;
+            height : 23rem;
+            width: 35rem;
+            display :flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .blockfooter1Logo {
+                background-color : ble;
+                height : 6rem;
+                width: 35rem;
+                display : flex;               
+                .blockfooter1LogoIMG {
+                    background-color : whie;
+                    height : 3rem;
+                    width : 3rem;
+                    margin-top : 2rem; 
+                    .logo {
+                        margin-top: 7px;
+                        text-align: center;
+                    }
+                }
+                .blockfooter1Logoteks {
+                    background-color : gry;
+                    height : 4rem;
+                    width : 10rem;
+                    margin-top : 1.5rem; 
+                    margin-left: 1rem;
+                    color: white;
+                }
+            }
+            .blockfooter1teks {
+                background-color : #a20000;
+                height : 5rem;
+                width: 35rem;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                .blockfooter1teksmargin1 {
+                    background-color : gry ;
+                    height : 1.3rem;
+                    width: 35rem;
+                    .blockfooter1teks1 {
+                        font-size: 18px;
+                        margin-left: 1rem;
+                        color: white;
+                    }
+                }
+                .blockfooter1teksmargin2 {
+                    background-color :ble;
+                    height : 2rem;
+                    width: 35rem;
+                    .blockfooter1teks2 {
+                        font-size: 18px;
+                        margin-left: 1rem;
+                        color:white ;
+                    }
+                }
+
+                
+            }
+            .blockfooter1app {
+                background-color : #a20000;
+                height : 4rem;  
+                width: 35rem;
+            }
+        }
+        .blockfooter2 {
+            background-color : goldnrod;
+            height : 23rem;
+            width: 10rem;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            .blockfooter2block1 {
+                background-color : prple;
+                height : 5rem;
+                width: 15rem;
+                .blockfooter2block1teks1 {
+                    font-size: 17px;
+                    color:white;
+                }
+            }
+            .blockfooter2block2 {
+                background-color : gey;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter2block1teks2 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+            .blockfooter2block3 {
+                background-color : dakgray;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter2block1teks3 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+            .blockfooter2block4 {
+                background-color : gre;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter2block1teks4 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+        }
+        .blockfooter3 {
+            background-color : orangeed;
+            height : 23rem;
+            width: 15rem;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            .blockfooter3block1 {
+                background-color : wite;
+                height : 5rem;
+                width: 15rem;
+                .blockfooter3block1teks1 {
+                    font-size: 17px;
+                    color:white;
+                }
+            }
+            .blockfooter3block2 {
+                background-color : gry;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter3block1teks2 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+            .blockfooter3block3 {
+                background-color : dakgray;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter3block1teks3 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+            .blockfooter3block4 {
+                background-color : gre;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter3block1teks4 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+        }
+        .blockfooter4 {
+            background-color : blanchedalmon;
+            height : 23rem; 
+            width: 15rem;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            .blockfooter2block1 {
+                background-color : wite;
+                height : 5rem;
+                width: 15rem;
+                .blockfooter2block1teks1 {
+                    font-size: 17px;
+                    color:white;
+                }
+            }
+            .blockfooter2block2 {
+                background-color : gey;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter2block1teks2 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+            .blockfooter2block3 {
+                background-color : drkgray;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter2block1teks3 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+            .blockfooter2block4 {
+                background-color : gre;
+                height : 2.5rem;
+                width: 15rem;
+                .blockfooter2block1teks4 {
+                    font-size: 14px;
+                    color:white;
+                }
+            }
+        }
+    }
+    
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden ;
+
+}
+
+li {
+    margin-top: 7px;
+    float: right;
+    margin-right: 70px;
+    text-align: right;
+}
+
+body {
+    background-color: blac;
+    height : 800px
+    font-family:sans-serif;
+}
+
+li:hover {
+    color:#d9d9d9;
+}
